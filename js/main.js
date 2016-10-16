@@ -1,6 +1,5 @@
   ///////remove border
  
-function setup(){}
   $('#form').submit(function(event){
         event.preventDefault();
     var proceed = false;
