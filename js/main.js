@@ -1059,6 +1059,8 @@ setTimeout(function(){
     downloadLink.download = "pattern.svg";
     document.body.appendChild(downloadLink);
     downloadLink.click()
+    document.body.removeChild(downloadLink);
+
   })
 
 
